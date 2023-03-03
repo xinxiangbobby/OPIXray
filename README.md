@@ -1,8 +1,10 @@
 # [OPIXray dataset and DOAM-O Module](https://arxiv.org/abs/2004.08656)
 
-This repository is **OPIXray dataset** and the official implementation of **De-occlusion Attention Module(DOAM-O)**. Paper link: https://arxiv.org/abs/2004.08656.
+This repository is **OPIXray dataset** and the official implementation of **De-occlusion Attention Module(DOAM-O)**.
+#### Paper link: https://arxiv.org/abs/2004.08656.
+#### Dataset Download link: Please go to the [webpage](https://github.com/DIG-Beihang/XrayDetection) and download according to the prompts.
 
-## V2 (submitted to IEEE T-Cyb)
+## V2 (submitted to IEEE T-NNLS)
 
 #### OPIXray dataset:
 
@@ -10,14 +12,12 @@ This repository is **OPIXray dataset** and the official implementation of **De-o
     <img src="images/samples.png" width="80%" height="80%"/>
 </div>
 
-#### Download link
-(China mainland, BaiduNetdisk) https://pan.baidu.com/s/18LX4C_ZfJUWMF19L0fNdBA password: i17p 
+<!-- (China mainland, BaiduNetdisk) https://pan.baidu.com/s/18LX4C_ZfJUWMF19L0fNdBA password: i17p -->
 
-(China mainland, BaiduNetdisk, Background Images) https://pan.baidu.com/s/1mc_XNEJlsF_0Rhi8-OHfbA  password: bnqz
+<!--(China mainland, BaiduNetdisk, Background Images) https://pan.baidu.com/s/1mc_XNEJlsF_0Rhi8-OHfbA  password: bnqz-->
 
 
-(Other area, Google Drive) https://drive.google.com/file/d/12moaa-ylpVu0KmUCZj_XXeA5TxZuCQ3o/view?usp=sharing
-
+<!--(Other area, Google Drive) https://drive.google.com/file/d/12moaa-ylpVu0KmUCZj_XXeA5TxZuCQ3o/view?usp=sharing -->
 
 #### DOAM-O framework:
 
@@ -155,6 +155,19 @@ In this project, we build the first dataset specially designed for occluded proh
 ## License
 
 The images and the corresponding annotations in OPIXray Dataset can be used **ONLY for academic purposes**, **NOT for commercial purposes**. 
+
+## Citation
+If this work helps your research, please cite the following paper.
+```
+@inproceedings{wei2020occluded,
+  title={Occluded prohibited items detection: An x-ray security inspection benchmark and de-occlusion attention module},
+  author={Wei, Yanlu and Tao, Renshuai and Wu, Zhangjie and Ma, Yuqing and Zhang, Libo and Liu, Xianglong},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={138--146},
+  year={2020}
+}
+
+```
 
 Copyright © 2020 by State Key Lab of Software Development Environment, Beihang University
 
